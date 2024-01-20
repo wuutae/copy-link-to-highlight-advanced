@@ -3,7 +3,7 @@ chrome.contextMenus.removeAll();
 
 // create parent contextMenus
 chrome.contextMenus.create({
-    title: "Copy link to highlight advanced",
+    title: "Copy link to highlight Advanced",
     contexts: ["selection"],
     id: "parent"
 });
