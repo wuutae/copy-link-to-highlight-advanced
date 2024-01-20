@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy link to highlight Advanced</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <header class="flex-column justify-content-center align-items-center">
+        <div class="flex-row justify-content-center">
+            <img class="inline-block" src="../icons/icon-128.png" alt="icon" width="128" height="128">
+            <div class="flex-column justify-content-center align-items-center">
+                <p>Copy link to highlight</p>
+                <p>Advanced</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-column align-items-center">
+        <ul id="var-list" class="mb">
+            <li>{{text}}: text of selected content</li>
+            <li>{{link}}: link of selected content</li>
+            <li>{{\n}}: new line</li>
+        </ul>
+        <div id="format-input-container" class="flex-column align-items-center w-100">
+            <label for="input1">Format 1</label><input class="mb" type="text" id="input1" placeholder="[{{text}}]({{link}})">
+            <label for="input2">Format 2</label><input class="mb" type="text" id="input2" placeholder="{{link}}">
+            <label for="input3">Format 3</label><input class="mb" type="text" id="input3" placeholder="selected text: {{text}}, link: {{link}}">
+            <label for="input4">Format 4</label><input class="mb" type="text" id="input4" placeholder="{{text}}{{\n}}{{link}}">
+        </div>
+
+        <button id="save" class="mb">Save</button>
+<!--        <button id="init">Initialize Data</button>-->
+    </main>
+    <script src="popup.js"></script>
+    </body>
+
+</html>
