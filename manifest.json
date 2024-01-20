@@ -39,28 +39,28 @@
         "default": "Alt+1"
       },
       "description": "Copy highlight to clipboard with format 1",
-      "global": true
+      "global": false
     },
     "copy-format-2": {
       "suggested_key": {
         "default": "Alt+2"
       },
       "description": "Copy highlight to clipboard with format 2",
-      "global": true
+      "global": false
     },
     "copy-format-3": {
       "suggested_key": {
         "default": "Alt+3"
       },
       "description": "Copy highlight to clipboard with format 3",
-      "global": true
+      "global": false
     },
     "copy-format-4": {
       "suggested_key": {
         "default": "Alt+4"
       },
       "description": "Copy highlight to clipboard with format 4",
-      "global": true
+      "global": false
     }
   }
 }
